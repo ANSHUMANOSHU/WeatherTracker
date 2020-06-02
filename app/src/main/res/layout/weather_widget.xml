@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_border"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <TextView
+            android:background="@drawable/background_border"
+            android:id="@+id/city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="2dp"
+            android:text="CITYNAME"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/refreshbtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/refresh" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="today"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/high1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_border"
+                android:textAlignment="center"
+                android:textColor="#f00"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/low1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3F51B5"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="today"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/high2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_border"
+                android:textAlignment="center"
+                android:textColor="#f00"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/low2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3F51B5"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date3"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="today"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/high3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_border"
+                android:textAlignment="center"
+                android:textColor="#f00"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/low3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3F51B5"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="today"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/high4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_border"
+                android:textAlignment="center"
+                android:textColor="#f00"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/low4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3F51B5"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="today"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:typeface="monospace" />
+
+            <TextView
+                android:id="@+id/high5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_border"
+                android:textAlignment="center"
+                android:textColor="#f00"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/low5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#3F51B5"
+                android:textSize="15sp"
+                android:typeface="monospace" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
